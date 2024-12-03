@@ -7,8 +7,6 @@ Nomadia is a minimalist e-commerce project showcasing handcrafted products such 
 This repository contains the setup for your Nomadia project. If you're starting from scratch, you can use the SvelteKit starter:
 
 ```bash
-Copier le code
-# create a new SvelteKit project
 npx create-svelte@latest nomadia
 📂 Cloning this Repository
 Clone the existing repository to get the latest version of the Nomadia project:
@@ -16,7 +14,6 @@ Clone the existing repository to get the latest version of the Nomadia project:
 
 
 ```bash
-Copier le code
 git clone https://github.com/MatthieuGriffon/nomadia.git
 cd nomadia
 💻 Developing
@@ -24,27 +21,23 @@ Install dependencies using your preferred package manager (npm, pnpm, or yarn) a
 ```
 
 ```bash
-Copier le code
 npm install
 npm run dev
 You can also open the app automatically in your browser:
 ```
 
 ```bash
-Copier le code
 npm run dev -- --open
 🏗️ Building
 To build a production-ready version of your app, run:
 ```
 
 ```bash
-Copier le code
 npm run build
 Preview the production build locally:
 ```
 
 ```bash
-Copier le code
 npm run preview
 ```
 For deployment, use an appropriate adapter for your hosting platform.
